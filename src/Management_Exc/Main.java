@@ -38,7 +38,7 @@ public class Main {
      * @param customer the customer to speak to the employee
      * @param employee the employee to be spoken to
      * @return the dialogue of the customer to the employee
-     * @throws IllegalArgumentException when given customer or employee is not what they are
+     * @throws ClassCastException when given customer or employee is not what they are
      * @throws NoSuchElementException when given customer or employee is not in the list of persons
      */
     public static String customerSpeak(List<Person> persons, String customer, String employee) {
