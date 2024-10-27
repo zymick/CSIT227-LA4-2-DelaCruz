@@ -16,7 +16,6 @@ public class Customer extends Person {
      * @param e employee to be spoken to
      * @return the dialogue of the customer
      */
-
     public String speak(Employee e) {
         if (e instanceof Developer) {
             Developer d = (Developer) e;

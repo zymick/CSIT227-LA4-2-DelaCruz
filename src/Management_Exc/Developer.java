@@ -11,7 +11,6 @@ public class Developer extends Employee {
     public Manager getProjectManager() {
         return projectManager;
     }
-
     /**
      * TODO the implementation
      * @param projectManager to be added as project manager

@@ -15,7 +15,6 @@ public class Manager extends Employee {
         if (raise < 0){
             throw new IllegalArgumentException("Raise must be non-negative");
         }
-
         if(this.equals(e)){
             e.setSalary(e.getSalary() + raise);
         }
