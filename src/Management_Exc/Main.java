@@ -15,6 +15,7 @@ public class Main {
      * @throws IllegalArgumentException when salary is invalid
      * @throws NoSuchElementException when given manager or employee does not exist in the list of persons
      */
+
     public static void giveRaise(List<Person> persons, String manager, String employee, double salary)  {
         if (salary < 0) {
             throw new IllegalArgumentException("Raise must be non-negative");

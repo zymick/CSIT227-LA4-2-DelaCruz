@@ -22,7 +22,6 @@ public class Manager extends Employee {
 
         e.setSalary(e.getSalary() + raise);
         this.setSalary(this.getSalary() + (raise/2));
-
     }
 
     @Override
